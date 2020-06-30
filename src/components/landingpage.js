@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import profile  from '../images/fjg.png';
 
 class Landing extends Component {
     render() {
@@ -8,7 +9,7 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="https://www.sergiserramenti.it/images/max.png"
+                            src={profile}
                             alt="profile"
                             className="avatar-img"
                         />
@@ -18,25 +19,26 @@ class Landing extends Component {
                             
                             <hr />
                             
-                            <p> HTML | CSS | Bootstrap | JavaScript | jQuery | React | NodeJS | Express </p>
-                            <p>  MongoDB | SQL Server | REST API | Git | Linux | Java </p>
+                            <p> HTML | CSS | Bootstrap | JavaScript | jQuery | React | Angular | NodeJS | Express </p>
+                            <p>  MongoDB | SQL Server | MySQL | REST API | Git | GitHub | Linux | Java </p>
                             
                             <div className="social-links">
 
                                 {/* LinkedIn */}
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/francisco-javier-gallegos-god%C3%ADnez-609966169/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
 
                                 {/* Github */}
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/fcogallegos?tab=repositories" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
-
-                                {/* Freecodecamp */}
+                                
+                                {/* Freecodecamp 
                                 <a href="http://google.com" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-free-code-camp" aria-hidden="true"/>
                                 </a>
+                                */}
                             </div>
                         </div>
                     </Cell>
