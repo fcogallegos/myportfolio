@@ -21,6 +21,13 @@
   padding-bottom: 3em;
 }
 
+/* resume page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
 /* contact page css */
 .contact-body {
   margin: auto;
@@ -112,3 +119,5 @@
   font-size: 5em;
   padding: 5px;
 }
+
+
