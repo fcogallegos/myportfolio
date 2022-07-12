@@ -20,8 +20,8 @@ class Projects extends Component {
                                 It is a project manager which allows you to create new users, log in and be able to create projects, create tasks, edit them, delete them.
                             </CardText>
                             <CardActions border>
-                                <Button href="https://heuristic-easley-f59559.netlify.app" target="_blank" colored>Open App</Button>
-                                <Button href="https://github.com/fcogallegos/MERN-tasks-client" target="_blank"colored>GitHub</Button>
+                                <Button href="https://classy-mandazi-a46afb.netlify.app" target="_blank" colored>Open App</Button>
+                                <Button href="https://github.com/fcogallegos/UPTASKS_MERN_frontend" target="_blank"colored>GitHub</Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
